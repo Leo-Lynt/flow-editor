@@ -1,0 +1,1 @@
+import{u as a}from"./executor-D39oo3pD.js";import"./index-CpYWmskZ.js";const{unwrapData:u}=a;function o({nodeData:n,inputs:t}){return t.input!==void 0?u(t.input):null}function p(n){return{valid:!0,errors:[]}}export{o as execute,p as validate};

@@ -1,0 +1,1 @@
+import{u as o}from"./dataUtils-XrCV_Bny.js";function a({nodeData:n,inputs:t}){const e=o(t.condition);return{branch:e?"exec-true":"exec-false",condition:e}}function i(n){return{valid:!0,errors:[]}}export{a as execute,i as validate};

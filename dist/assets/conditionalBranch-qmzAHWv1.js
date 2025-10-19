@@ -1,0 +1,1 @@
+import{u as c}from"./dataUtils-XrCV_Bny.js";function a({nodeData:o,inputs:n}){const t=Object.keys(n).find(i=>i.includes("condition"))||"condition",e=c(n[t]);return{branch:e?"exec-true":"exec-false",condition:e}}function d(o){return{valid:!0,errors:[]}}export{a as execute,d as validate};

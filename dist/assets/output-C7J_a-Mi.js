@@ -1,0 +1,1 @@
+import{u as c}from"./dataUtils-XrCV_Bny.js";import"./index-CTqQs7-6.js";async function f({nodeData:t,inputs:e,context:o}){const r={};return t.dynamicInputs&&t.dynamicInputs.length>0?t.dynamicInputs.forEach(n=>{const a=n.key;e[a]!==void 0&&(r[a]=c(e[a]))}):Object.keys(e).forEach(n=>{r[n]=c(e[n])}),r}function s(t){return{valid:!0,errors:[]}}export{f as execute,s as validate};

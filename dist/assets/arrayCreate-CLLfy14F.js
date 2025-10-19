@@ -1,0 +1,1 @@
+import{u as r}from"./executor-D39oo3pD.js";import"./index-CpYWmskZ.js";const{unwrapData:c}=r;function u({nodeData:e,inputs:t}){const i=e.items||[],n=[];for(const o of i){const s=c(t[o.id]);n.push(s)}return n}function l(e){const t=[];return(e.items||[]).length===0&&t.push("É necessário adicionar pelo menos 1 item"),{valid:t.length===0,errors:t}}export{u as execute,l as validate};

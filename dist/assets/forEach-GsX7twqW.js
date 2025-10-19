@@ -1,0 +1,1 @@
+import{u as o}from"./executor-D39oo3pD.js";import"./index-CpYWmskZ.js";const{unwrapData:n}=o;function i({nodeData:a,inputs:t}){const r=n(t.array);if(!Array.isArray(r))throw new Error("Input must be an array");return{__forEachLoop:!0,array:r,totalCount:r.length}}function s(a){return{valid:!0,errors:[]}}export{i as execute,s as validate};

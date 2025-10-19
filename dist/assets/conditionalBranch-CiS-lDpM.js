@@ -1,0 +1,1 @@
+import{u as o}from"./executor-D39oo3pD.js";import"./index-CpYWmskZ.js";const{unwrapData:r}=o;function c({nodeData:n,inputs:e}){const t=r(e.condition);return{branch:t?"exec-true":"exec-false",condition:t}}function u(n){return{valid:!0,errors:[]}}export{c as execute,u as validate};
